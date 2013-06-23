@@ -32,13 +32,13 @@ void main() {
 void set_led(unsigned int bt) {
 	switch (bt) {
 		case 0:
-			leds ^= 0b00000010;
+			leds ^= 0b00001000;
 			break;
 		case 1:
 			leds ^= 0b00000100;
 			break;
 		case 2:
-			leds ^= 0b00001000;
+			leds ^= 0b00000010;
 			break;
 		case 3:
 			leds = 0b00000000;
